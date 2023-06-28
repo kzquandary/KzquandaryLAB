@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="../../../../../_autoindex/assets/css/autoindex.css"><script src="../../../../../_autoindex/assets/js/tablesort.js"></script><script src="../../../../../_autoindex/assets/js/tablesort.number.js"></script><title>Index of /atlantis/livepreview/examples/assets/js/</title></head>
+<body><div class="content"><h1>Index of /atlantis/livepreview/examples/assets/js/</h1>
+<div id="table-filter"><input type="text" name="keyword" id="filter-keyword" placeholder="Filter Name"></div>
+<div id="table-list"><table id="table-content"><thead class="t-header"><tr><th class="colname"><a class="name" href="index-4.htm?NA" onclick="return false">Name</a></th><th class="colname" data-sort-method="number" aria-sort="descending"><a href="index-2.htm?MA" onclick="return false">Last Modified</a></th><th class="colname" data-sort-method="number"><a href="index-3.htm?SA" onclick="return false">Size</a></th></tr></thead>
+<tr data-sort-method="none"><td><a href="../index.htm"><img class="icon" src="../../../../../_autoindex/assets/icons/corner-left-up.svg" alt="Up">Parent Directory</a></td><td></td><td></td></tr>
+<tr><td data-sort="*plugin"><a href="plugin/index.htm"><img class="icon" src="../../../../../_autoindex/assets/icons/folder-fill.svg" alt="Directory">plugin</a></td><td data-sort="-13032804">2019-07-22 03:46</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="*core"><a href="core/index.htm"><img class="icon" src="../../../../../_autoindex/assets/icons/folder-fill.svg" alt="Directory">core</a></td><td data-sort="-13032808">2019-07-22 03:46</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="demo.js"><a href="demo-1.js"><img class="icon" src="../../../../../_autoindex/assets/icons/file-text.svg" alt="[TXT]">demo.js</a></td><td data-sort="1563600470">2019-07-20 05:27</td><td data-sort="8192">      8k</td></tr>
+<tr><td data-sort="demo2.js"><a href="demo2.js"><img class="icon" src="../../../../../_autoindex/assets/icons/file-text.svg" alt="[TXT]">demo2.js</a></td><td data-sort="1563600470">2019-07-20 05:27</td><td data-sort="4096">      4k</td></tr>
+<tr><td data-sort="atlantis2.min.js"><a href="atlantis2.min.js"><img class="icon" src="../../../../../_autoindex/assets/icons/file-text.svg" alt="[TXT]">atlantis2.min.js</a></td><td data-sort="1562034324">2019-07-02 02:25</td><td data-sort="12288">     12k</td></tr>
+<tr><td data-sort="atlantis2.js"><a href="atlantis2.js"><img class="icon" src="../../../../../_autoindex/assets/icons/file-text.svg" alt="[TXT]">atlantis2.js</a></td><td data-sort="1562034324">2019-07-02 02:25</td><td data-sort="16384">     16k</td></tr>
+<tr><td data-sort="atlantis.js"><a href="atlantis.js"><img class="icon" src="../../../../../_autoindex/assets/icons/file-text.svg" alt="[TXT]">atlantis.js</a></td><td data-sort="1561991122">2019-07-01 14:25</td><td data-sort="12288">     12k</td></tr>
+<tr><td data-sort="atlantis.min.js"><a href="atlantis.min-1.js"><img class="icon" src="../../../../../_autoindex/assets/icons/file-text.svg" alt="[TXT]">atlantis.min.js</a></td><td data-sort="1561991122">2019-07-01 14:25</td><td data-sort="8192">      8k</td></tr>
+<tr><td data-sort="setting-demo2.js"><a href="setting-demo2-1.js"><img class="icon" src="../../../../../_autoindex/assets/icons/file-text.svg" alt="[TXT]">setting-demo2.js</a></td><td data-sort="1543892682">2018-12-04 03:04</td><td data-sort="4096">      4k</td></tr>
+<tr><td data-sort="setting-demo.js"><a href="setting-demo-1.js"><img class="icon" src="../../../../../_autoindex/assets/icons/file-text.svg" alt="[TXT]">setting-demo.js</a></td><td data-sort="1543892668">2018-12-04 03:04</td><td data-sort="4096">      4k</td></tr>
+</table></div>
+<address>Proudly Served by LiteSpeed Web Server at demo.themekita.com Port 443</address></div><script>
+	new Tablesort(document.getElementById("table-content"));
+	var keywordInput = document.getElementById('filter-keyword');
+	document.addEventListener('keyup', filterTable);
+
+	function filterTable(e) {
+		if (e.target.id != 'filter-keyword') return;
+
+		var cols = document.querySelectorAll('tbody td:first-child');
+		var keyword = keywordInput.value.toLowerCase();
+		for (i = 0; i < cols.length; i++) {
+			var text = cols[i].textContent.toLowerCase();
+			if (text != 'parent directory') {
+				cols[i].parentNode.style.display = text.indexOf(keyword) === -1 ? 'none' : 'table-row';
+			}
+		}
+	}
+</script></body></html>
